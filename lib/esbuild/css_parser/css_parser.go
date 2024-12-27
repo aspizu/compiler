@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/withastro/compiler/lib/esbuild/ast"
-	"github.com/withastro/compiler/lib/esbuild/compat"
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/ast"
+	"github.com/aspizu/compilerb/esbuild/compat"
+	"github.com/aspizu/compilerb/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 // This is mostly a normal CSS parser with one exception: the addition of
@@ -510,17 +510,17 @@ var nonDeprecatedElementsSupportedByIE7 = map[string]bool{
 // if any of the selectors are unsafe, since then browsers which don't support
 // that particular feature would ignore the entire merged qualified rule:
 //
-//   Input:
-//     a { color: red }
-//     b { color: red }
-//     input::-moz-placeholder { color: red }
+//	Input:
+//	  a { color: red }
+//	  b { color: red }
+//	  input::-moz-placeholder { color: red }
 //
-//   Valid output:
-//     a, b { color: red }
-//     input::-moz-placeholder { color: red }
+//	Valid output:
+//	  a, b { color: red }
+//	  input::-moz-placeholder { color: red }
 //
-//   Invalid output:
-//     a, b, input::-moz-placeholder { color: red }
+//	Invalid output:
+//	  a, b, input::-moz-placeholder { color: red }
 //
 // This considers IE 7 and above to be a browser that a user could possibly use.
 // Versions of IE less than 6 are not considered.

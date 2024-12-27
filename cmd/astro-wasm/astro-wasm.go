@@ -9,15 +9,15 @@ import (
 	"syscall/js"
 	"unicode"
 
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/handler"
+	"github.com/aspizu/compilerternal/loc"
+	"github.com/aspizu/compilerternal/printer"
+	"github.com/aspizu/compilerternal/sourcemap"
+	t "github.com/aspizu/compilerternal/t"
+	"github.com/aspizu/compilerternal/transform"
+	wasm_utils "github.com/aspizu/compilerternal_wasm/utils"
 	"github.com/norunners/vert"
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
-	"github.com/withastro/compiler/external/loc"
-	"github.com/withastro/compiler/external/printer"
-	"github.com/withastro/compiler/external/sourcemap"
-	t "github.com/withastro/compiler/external/t"
-	"github.com/withastro/compiler/external/transform"
-	wasm_utils "github.com/withastro/compiler/internal_wasm/utils"
 )
 
 func main() {

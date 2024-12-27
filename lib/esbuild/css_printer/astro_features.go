@@ -3,8 +3,8 @@ package css_printer
 import (
 	"fmt"
 
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
+	"github.com/aspizu/compiler/lib/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
 )
 
 func (p *printer) printScopedSelector() bool {

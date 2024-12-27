@@ -4,8 +4,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/withastro/compiler/lib/esbuild/helpers"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/helpers"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 // The lexer converts a source file to a stream of tokens. Unlike esbuild's

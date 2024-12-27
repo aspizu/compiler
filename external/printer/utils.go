@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/js_scanner"
+	"github.com/aspizu/compilerternal/transform"
 	"github.com/iancoleman/strcase"
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/js_scanner"
-	"github.com/withastro/compiler/external/transform"
 )
 
 func escapeText(src string) string {

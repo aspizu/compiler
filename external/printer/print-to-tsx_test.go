@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	astro "github.com/withastro/compiler/external"
-	handler "github.com/withastro/compiler/external/handler"
-	"github.com/withastro/compiler/external/transform"
+	astro "github.com/aspizu/compiler/external"
+	handler "github.com/aspizu/compilerternal/handler"
+	"github.com/aspizu/compilerternal/transform"
 )
 
 // One of the more performance-sensitive parts of the compiler is the handling of multibytes characters, this benchmark is an extreme case of that.

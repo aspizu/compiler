@@ -3,10 +3,10 @@ package css_ast
 import (
 	"strconv"
 
-	"github.com/withastro/compiler/lib/esbuild/ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
-	"github.com/withastro/compiler/lib/esbuild/helpers"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
+	"github.com/aspizu/compilerb/esbuild/helpers"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 // CSS syntax comes in two layers: a minimal syntax that generally accepts

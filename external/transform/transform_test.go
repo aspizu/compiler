@@ -6,8 +6,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/handler"
 )
 
 func transformScopingFixtures() []struct {

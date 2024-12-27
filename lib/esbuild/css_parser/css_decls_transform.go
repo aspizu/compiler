@@ -3,8 +3,8 @@ package css_parser
 import (
 	"strings"
 
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
+	"github.com/aspizu/compiler/lib/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
 )
 
 func turnPercentIntoNumberIfShorter(t *css_ast.Token) {

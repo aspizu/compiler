@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/withastro/compiler/lib/esbuild/ast"
-	"github.com/withastro/compiler/lib/esbuild/compat"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/ast"
+	"github.com/aspizu/compilerb/esbuild/compat"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 type JSXOptions struct {

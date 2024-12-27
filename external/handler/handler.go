@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/withastro/compiler/external/loc"
-	"github.com/withastro/compiler/external/sourcemap"
+	"github.com/aspizu/compiler/external/loc"
+	"github.com/aspizu/compilerternal/sourcemap"
 )
 
 type Handler struct {

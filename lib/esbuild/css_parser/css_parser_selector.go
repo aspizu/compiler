@@ -3,10 +3,10 @@ package css_parser
 import (
 	"fmt"
 
-	"github.com/withastro/compiler/lib/esbuild/compat"
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/compat"
+	"github.com/aspizu/compilerb/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 func (p *parser) parseSelectorList(opts parseSelectorOpts) (list []css_ast.ComplexSelector, ok bool) {

@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/withastro/compiler/lib/esbuild/compat"
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
+	"github.com/aspizu/compiler/lib/esbuild/compat"
+	"github.com/aspizu/compilerb/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
 )
 
 // These names are shorter than their hex codes

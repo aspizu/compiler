@@ -1,9 +1,9 @@
 package css_parser
 
 import (
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
-	"github.com/withastro/compiler/external/test_utils"
-	"github.com/withastro/compiler/external/transform"
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/handler"
+	"github.com/aspizu/compilerternal/test_utils"
+	"github.com/aspizu/compilerternal/transform"
 )
 
 type testcase_css struct {

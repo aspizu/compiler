@@ -5,12 +5,12 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/withastro/compiler/lib/esbuild/ast"
-	"github.com/withastro/compiler/lib/esbuild/config"
-	"github.com/withastro/compiler/lib/esbuild/css_ast"
-	"github.com/withastro/compiler/lib/esbuild/css_lexer"
-	"github.com/withastro/compiler/lib/esbuild/helpers"
-	"github.com/withastro/compiler/lib/esbuild/sourcemap"
+	"github.com/aspizu/compiler/lib/esbuild/ast"
+	"github.com/aspizu/compilerb/esbuild/config"
+	"github.com/aspizu/compilerb/esbuild/css_ast"
+	"github.com/aspizu/compilerb/esbuild/css_lexer"
+	"github.com/aspizu/compilerb/esbuild/helpers"
+	"github.com/aspizu/compilerb/esbuild/sourcemap"
 )
 
 const quoteForURL byte = 0

@@ -3,9 +3,9 @@ package printer
 import (
 	"strings"
 
-	. "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/sourcemap"
-	"github.com/withastro/compiler/external/transform"
+	. "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/sourcemap"
+	"github.com/aspizu/compilerternal/transform"
 )
 
 type PrintCSSResult struct {

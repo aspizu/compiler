@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/lib/esbuild/css_parser"
-	"github.com/withastro/compiler/lib/esbuild/css_printer"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerb/esbuild/css_parser"
+	"github.com/aspizu/compilerb/esbuild/css_printer"
+	"github.com/aspizu/compilerb/esbuild/logger"
 	a "golang.org/x/net/html/atom"
 )
 

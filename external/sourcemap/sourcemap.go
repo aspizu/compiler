@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/withastro/compiler/external/helpers"
-	"github.com/withastro/compiler/external/loc"
+	"github.com/aspizu/compiler/external/helpers"
+	"github.com/aspizu/compilerternal/loc"
 )
 
 type Mapping struct {

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"unicode"
 
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
-	"github.com/withastro/compiler/external/js_scanner"
-	"github.com/withastro/compiler/external/loc"
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/handler"
+	"github.com/aspizu/compilerternal/js_scanner"
+	"github.com/aspizu/compilerternal/loc"
 	a "golang.org/x/net/html/atom"
 )
 

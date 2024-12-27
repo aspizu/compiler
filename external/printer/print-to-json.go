@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"strings"
 
-	. "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/loc"
-	"github.com/withastro/compiler/external/sourcemap"
-	"github.com/withastro/compiler/external/t"
-	"github.com/withastro/compiler/external/transform"
+	. "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/loc"
+	"github.com/aspizu/compilerternal/sourcemap"
+	"github.com/aspizu/compilerternal/t"
+	"github.com/aspizu/compilerternal/transform"
 )
 
 type ASTPosition struct {

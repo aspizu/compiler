@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/withastro/compiler/lib/esbuild/compat"
-	"github.com/withastro/compiler/lib/esbuild/config"
-	"github.com/withastro/compiler/lib/esbuild/css_printer"
-	"github.com/withastro/compiler/lib/esbuild/logger"
-	"github.com/withastro/compiler/lib/esbuild/test"
+	"github.com/aspizu/compiler/lib/esbuild/compat"
+	"github.com/aspizu/compilerb/esbuild/config"
+	"github.com/aspizu/compilerb/esbuild/css_printer"
+	"github.com/aspizu/compilerb/esbuild/logger"
+	"github.com/aspizu/compilerb/esbuild/test"
 )
 
 func expectParseError(t *testing.T, contents string, expected string) {

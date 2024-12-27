@@ -10,8 +10,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/withastro/compiler/external/handler"
-	"github.com/withastro/compiler/external/loc"
+	"github.com/aspizu/compiler/external/handler"
+	"github.com/aspizu/compilerternal/loc"
 	a "golang.org/x/net/html/atom"
 )
 

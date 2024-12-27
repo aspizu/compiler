@@ -3,8 +3,8 @@ package css_lexer
 import (
 	"testing"
 
-	"github.com/withastro/compiler/lib/esbuild/logger"
-	"github.com/withastro/compiler/lib/esbuild/test"
+	"github.com/aspizu/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compilerb/esbuild/test"
 )
 
 func lexToken(contents string) (T, string) {

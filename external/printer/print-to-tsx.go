@@ -5,14 +5,14 @@ import (
 	"strings"
 	"unicode"
 
-	. "github.com/withastro/compiler/external"
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
-	"github.com/withastro/compiler/external/helpers"
-	"github.com/withastro/compiler/external/js_scanner"
-	"github.com/withastro/compiler/external/loc"
-	"github.com/withastro/compiler/external/sourcemap"
-	"github.com/withastro/compiler/external/transform"
+	. "github.com/aspizu/compiler/external"
+	astro "github.com/aspizu/compilerternal"
+	"github.com/aspizu/compilerternal/handler"
+	"github.com/aspizu/compilerternal/helpers"
+	"github.com/aspizu/compilerternal/js_scanner"
+	"github.com/aspizu/compilerternal/loc"
+	"github.com/aspizu/compilerternal/sourcemap"
+	"github.com/aspizu/compilerternal/transform"
 	"golang.org/x/net/html/atom"
 )
 

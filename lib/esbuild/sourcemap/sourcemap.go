@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/withastro/compiler/lib/esbuild/helpers"
-	"github.com/withastro/compiler/lib/esbuild/logger"
+	"github.com/aspizu/compiler/lib/esbuild/helpers"
+	"github.com/aspizu/compilerb/esbuild/logger"
 )
 
 type Mapping struct {
@@ -73,12 +73,11 @@ var base64 = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 // bit. The continuation bit tells us whether there are more digits in this
 // value following this digit.
 //
-//   Continuation
-//   |    Sign
-//   |    |
-//   V    V
-//   101011
-//
+//	Continuation
+//	|    Sign
+//	|    |
+//	V    V
+//	101011
 func EncodeVLQ(value int) []byte {
 	var vlq int
 	if value < 0 {

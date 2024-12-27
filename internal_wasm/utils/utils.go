@@ -5,9 +5,9 @@ import (
 	"strings"
 	"syscall/js"
 
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/handler"
 	"github.com/norunners/vert"
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
 )
 
 // See https://stackoverflow.com/questions/68426700/how-to-wait-a-js-async-function-from-golang-wasm

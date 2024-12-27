@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	astro "github.com/withastro/compiler/external"
-	"github.com/withastro/compiler/external/handler"
-	types "github.com/withastro/compiler/external/t"
-	"github.com/withastro/compiler/external/test_utils"
-	"github.com/withastro/compiler/external/transform"
+	astro "github.com/aspizu/compiler/external"
+	"github.com/aspizu/compilerternal/handler"
+	types "github.com/aspizu/compilerternal/t"
+	"github.com/aspizu/compilerternal/test_utils"
+	"github.com/aspizu/compilerternal/transform"
 )
 
 var INTERNAL_IMPORTS = fmt.Sprintf("import {\n  %s\n} from \"%s\";\n", strings.Join([]string{
