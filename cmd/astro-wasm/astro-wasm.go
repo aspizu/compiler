@@ -10,13 +10,13 @@ import (
 	"unicode"
 
 	"github.com/norunners/vert"
-	astro "github.com/withastro/compiler/internal"
-	"github.com/withastro/compiler/internal/handler"
-	"github.com/withastro/compiler/internal/loc"
-	"github.com/withastro/compiler/internal/printer"
-	"github.com/withastro/compiler/internal/sourcemap"
-	t "github.com/withastro/compiler/internal/t"
-	"github.com/withastro/compiler/internal/transform"
+	astro "github.com/withastro/compiler/external"
+	"github.com/withastro/compiler/external/handler"
+	"github.com/withastro/compiler/external/loc"
+	"github.com/withastro/compiler/external/printer"
+	"github.com/withastro/compiler/external/sourcemap"
+	t "github.com/withastro/compiler/external/t"
+	"github.com/withastro/compiler/external/transform"
 	wasm_utils "github.com/withastro/compiler/internal_wasm/utils"
 )
 
