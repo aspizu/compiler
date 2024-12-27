@@ -337,7 +337,7 @@
 ### Patch Changes
 
 - a35468a: Do not remove surrounding whitespace from text surrounded by newlines when `compressHTML` is enabled
-- 4aba173: Fix props detection when importing `Props` from another file (see [#814](https://github.com/withastro/compiler/issues/814))
+- 4aba173: Fix props detection when importing `Props` from another file (see [#814](https://github.com/aspizu/compiler/issues/814))
 
 ## 1.5.3
 
@@ -465,7 +465,7 @@
 
 ### Major Changes
 
-- 8e86bc6: The Astro compiler is officially stable! This release is entirely ceremonial, the code is the same as [`@astrojs/compiler@0.33.0`](https://github.com/withastro/compiler/releases/tag/%40astrojs%2Fcompiler%400.33.0)
+- 8e86bc6: The Astro compiler is officially stable! This release is entirely ceremonial, the code is the same as [`@astrojs/compiler@0.33.0`](https://github.com/aspizu/compiler/releases/tag/%40astrojs%2Fcompiler%400.33.0)
 
 ## 0.33.0
 
@@ -500,7 +500,7 @@
 
 ### Patch Changes
 
-- fd5cb57: Rollback https://github.com/withastro/compiler/pull/674
+- fd5cb57: Rollback https://github.com/aspizu/compiler/pull/674
 
 ## 0.31.2
 
@@ -575,7 +575,7 @@
 
 ### Patch Changes
 
-- 6ff1d80: Fix regression introduced by https://github.com/withastro/compiler/pull/617
+- 6ff1d80: Fix regression introduced by https://github.com/aspizu/compiler/pull/617
 
 ## 0.29.13
 
@@ -898,7 +898,7 @@
 
 ### Patch Changes
 
-- f8547a7: Revert [#448](https://github.com/withastro/compiler/pull/448) for now
+- f8547a7: Revert [#448](https://github.com/aspizu/compiler/pull/448) for now
 
 ## 0.18.1
 
@@ -1161,7 +1161,7 @@
 
 - f5d4006: Switch from TinyGo to Go's built-in WASM output. While this is an unfortunate size increase for our `.wasm` file, it should also be significantly more stable and cut down on hard-to-reproduce bugs.
 
-  Please see https://github.com/withastro/compiler/pull/291 for more details.
+  Please see https://github.com/aspizu/compiler/pull/291 for more details.
 
 ## 0.11.0-next--wasm.0
 
@@ -1169,7 +1169,7 @@
 
 - 9212ccc: Switch from TinyGo to Go's built-in WASM output. While this is an unfortunate size increase for our `WASM` file, it should also be significantly more stable and cut down on hard-to-reproduce bugs.
 
-  Please see https://github.com/withastro/compiler/pull/291 for more details.
+  Please see https://github.com/aspizu/compiler/pull/291 for more details.
 
 ## 0.10.2
 
